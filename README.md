@@ -1,49 +1,47 @@
-2048 Game in Python (Pygame)
-Overview
+# 2048 Game
 
-This is a Python implementation of the popular 2048 game using the Pygame library. The objective of the game is to combine tiles with the same value by moving them in one of four directions (left, right, up, or down) to ultimately create a tile with the number 2048.
-Features
+## Overview
+This is a Python-based implementation of the classic 2048 game. The game is played on a 4×4 grid, where players merge tiles with the same numbers to reach the 2048 tile. The objective is to strategically combine tiles by moving them in different directions.
 
-    Smooth tile animations
-    Random tile generation
-    Dynamic color changes based on tile values
-    Game over detection
-    Restart on game over
+## Features
+- Classic 2048 gameplay
+- Simple and intuitive controls
+- Score tracking
+- Random tile generation after each move
+- Game over detection
 
-Requirements
+## Technologies Used
+- **Programming Language**: Python
+- **Libraries**: NumPy, Tkinter (for GUI, if applicable)
 
-Before running the game, ensure you have Python and Pygame installed.
-Installation:
+## Installation
 
-    Install Python (if not already installed):
-        Download it from python.org.
-    Install Pygame using pip:
+### Prerequisites
+Ensure you have Python installed on your system.
 
-    pip install pygame
+### Clone the Repository
+```bash
+git clone https://github.com/HackSmith010/2048_game.git
+cd 2048_game
+```
 
-How to Run
+### Run the Game
+```bash
+python game.py
+```
 
-    Download or clone this repository.
-    Navigate to the project directory.
-    Run the following command:
+## How to Play
+1. Use arrow keys (Up, Down, Left, Right) to move tiles.
+2. When two tiles with the same number collide, they merge into one.
+3. The goal is to create a tile with the number 2048.
+4. The game ends when no moves are possible.
 
-    python game.py
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (`feature-branch-name`).
+3. Commit changes and push to your branch.
+4. Submit a pull request.
 
-    (Assuming you have saved the script as game.py)
-
-Controls
-
-    Arrow Keys: Move the tiles
-    Esc / Close Button: Exit the game
-
-Game Rules
-
-    At the start, two tiles (either 2 or 4) appear at random positions on a 4x4 grid.
-    Pressing an arrow key moves all tiles in that direction.
-    Tiles with the same number merge when they collide, forming a new tile with double the value.
-    The goal is to reach the 2048 tile (or continue beyond it for a high score).
-    If the grid is full and no moves are possible, the game ends.
-
-License
-
-This project is open-source and free to use.
+## Contact
+For any queries or suggestions, feel free to reach out via [GitHub Issues](https://github.com/HackSmith010/2048_game/issues).
